@@ -1,0 +1,19 @@
+<%- include("header") -%>
+
+    <div class="alert-box">
+        <p class="alert">Invalid</p>
+    </div>
+
+    <form action="/login" method="post">
+        <h1 class="heading">login</h1>
+        <input type="email" placeholder="email" autocomplete="off" name="email" class="email" required>
+        <input type="password" placeholder="password" autocomplete="off" name="password" class="password" required>
+        <button type="submit" class="submit-btn" name="button">log in</button>
+        <a href="register" class="link">don't have an account? Register one</a>
+    </form>
+
+
+
+
+
+    <%- include("footer") -%>
