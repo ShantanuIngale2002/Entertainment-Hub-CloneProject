@@ -6,4 +6,4 @@ const server=http.createServer(app);
 
 server.listen(port, hostname: () => {
   console.log(`Started on port ${port}`);
-}};
+});
